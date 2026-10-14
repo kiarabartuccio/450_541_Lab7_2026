@@ -52,7 +52,7 @@ public class PlayerMovement : MonoBehaviour
 
 
         Vector3 cameraForward = Camera.main.transform.forward;
-        Vector3 cameraRight = Camera.main.transform.forward;
+        Vector3 cameraRight = Camera.main.transform.right;
 
         cameraForward.y = 0.0f;
         cameraRight.y = 0.0f;
